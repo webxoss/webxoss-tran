@@ -52,7 +52,7 @@ export default {
     },
     fileUrl() {
       let json = JSON.stringify(this.translation)
-      let url = `data:application/octet-stream;base64,${btoa(json)}`
+      let url = `data:application/octet-stream;base64,${btoa(unescape(encodeURIComponent(json)))}`
       return url
     },
   },
@@ -111,6 +111,19 @@ export default {
         console.error(error)
       })
     },
+    importFile(event) {
+      let file = event.target.files[0]
+      if (!file) {
+        return
+      }
+      let reader = new FileReader()
+      reader.onload = () => {
+        try {
+          this.translation = JSON.parse(reader.result)
+        } catch (e) {}
+      }
+      reader.readAsText(file)
+    },
   },
   created() {
     this.load()
@@ -135,7 +148,10 @@ export default {
           <span>To</span>
           <input v-model="lang" type="text" maxlength="20" placeholder="Your language">
         </label>
-        <!-- <input type="file"> -->
+        <span :class="$style.fileInputContainer">
+          <button>import</button>
+          <input :class="$style.fileInput" @change="importFile" type="file">
+        </span>
         <a :href="fileUrl" :download="(lang || 'translation') + '.json'"><button>Export</button></a>
       </div>
       <label>pid: <input :class="[pid !== pidInput ? $style.invalid : '']" v-model.number="pidInput" type="number" min="1"></label>
@@ -181,5 +197,17 @@ export default {
 .invalid {
   color: red;
   background-color: yellow;
+}
+.fileInputContainer {
+  position: relative;
+}
+.fileInput {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 </style>
