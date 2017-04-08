@@ -96,10 +96,10 @@ export default {
     },
     loadData() {
       this.loading = true
-      return $get('/static/CardInfo.json')
+      return $get('./static/CardInfo.json')
       .then(CardInfo => {
         this.CardInfo = Object.freeze(CardInfo)
-        return $get('/static/CardInfo_en.json')
+        return $get('./static/CardInfo_en.json')
       })
       .then(CardInfo_en => {
         this.CardInfo_en = Object.freeze(CardInfo_en)
