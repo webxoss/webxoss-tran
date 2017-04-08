@@ -14,10 +14,16 @@ export default {
 
     refer: 'jp',
     lang: '',
-    pid: 1,
+    pidInput: 1,
     translation: {},
   }),
   computed: {
+    pid() {
+      if (this.CardInfo[this.pidInput]) {
+        return this.pidInput
+      }
+      return 1
+    },
     card() {
       let CardInfo = {
         jp: this.CardInfo,
@@ -44,9 +50,50 @@ export default {
     src() {
       return 'https://webxoss.com/images/' + `0000${this.pid}`.slice(-4) + '.jpg'
     },
+    fileUrl() {
+      let json = JSON.stringify(this.translation)
+      let url = `data:application/octet-stream;base64,${btoa(json)}`
+      return url
+    },
+  },
+  watch: {
+    refer() {
+      this.save()
+    },
+    lang() {
+      this.save()
+    },
+    pidInput() {
+      this.save()
+    },
+    translation: {
+      deep: true,
+      handler() {
+        this.save()
+      },
+    },
   },
   methods: {
     get: $get,
+    save() {
+      localStorage.setItem('WEBXOSS|translate', JSON.stringify({
+        refer: this.refer,
+        lang: this.lang,
+        pidInput: this.pidInput,
+        translation: this.translation,
+      }))
+    },
+    load() {
+      try {
+        let data = JSON.parse(localStorage.getItem('WEBXOSS|translate'))
+        if (data) {
+          this.refer = data.refer
+          this.lang = data.lang
+          this.pidInput = data.pidInput
+          this.translation = data.translation
+        }
+      } catch (e) {}
+    },
     loadData() {
       this.loading = true
       return $get('/static/CardInfo.json')
@@ -66,6 +113,7 @@ export default {
     },
   },
   created() {
+    this.load()
     this.loadData()
   },
 }
@@ -88,9 +136,9 @@ export default {
           <input v-model="lang" type="text" maxlength="20" placeholder="Your language">
         </label>
         <!-- <input type="file"> -->
-        <button>Export</button>
+        <a :href="fileUrl" :download="(lang || 'translation') + '.json'"><button>Export</button></a>
       </div>
-      <label>pid: <input v-model.number="pid" type="number"></label>
+      <label>pid: <input :class="[pid !== pidInput ? $style.invalid : '']" v-model.number="pidInput" type="number" min="1"></label>
       <div>wxid: {{ card.wxid }}</div>
       <div :class="$style.columns" v-if="card">
         <section :class="$style.info">
@@ -129,5 +177,9 @@ export default {
 .editor {
   flex: 1;
   padding-left: 2em;
+}
+.invalid {
+  color: red;
+  background-color: yellow;
 }
 </style>

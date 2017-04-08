@@ -15,6 +15,13 @@ export default {
       return keyValues
     },
   },
+  methods: {
+    onfocus(event) {
+      if (this.readonly) {
+        event.target.select()
+      }
+    },
+  },
 }
 </script>
 
@@ -22,15 +29,20 @@ export default {
   <section :class="$style.editor">
     <label>
       <span>name:</span>
-      <input type="text" :readonly="readonly" :value="card.name">
+      <input
+        type="text"
+        :readonly="readonly"
+        v-model="card.name"
+        @focus="onfocus">
     </label>
     <div v-for="keyValue in keyValues">
       <div>{{ keyValue.key }}:</div>
       <textarea
-        v-for="text in keyValue.value"
-        :value="text"
+        v-for="(text, index) in keyValue.value"
         :readonly="readonly"
-        rows="4">
+        rows="4"
+        v-model="keyValue.value[index]"
+        @focus="onfocus">
       </textarea>
     </div>
   </section>
