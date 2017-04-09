@@ -58920,7 +58920,12 @@
     "costColorless": 0,
     "guardFlag": false,
     "multiEner": false,
-    "lifeBurst": "カードを１枚引く。"
+    "startUpEffectTexts": [
+      "【出】：対戦相手の手札が２枚以下の場合、あなたはカードを１枚引く。"
+    ],
+    "burstEffectTexts": [
+      "【※】：カードを1枚引く。"
+    ]
   },
   "2144": {
     "pid": 2144,
