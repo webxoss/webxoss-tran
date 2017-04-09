@@ -14922,7 +14922,7 @@
     "wxid": "SP17-003",
     "name": "Tobiel, Sun Staff of Midsummer",
     "actionEffectTexts": [
-      "[Action] [Down] 1 of your upped <Angel> SIGNI: Return 1 of your opponent's SIGNI to their hand."
+      "[Action] [Down] Down 1 of your upped <Angel> SIGNI: Return 1 of your opponent's SIGNI to their hand."
     ]
   },
   "1884": {
@@ -15649,6 +15649,20 @@
       "During your opponent's turn, the cost to use this card is [Colorless] [Colorless] [Colorless].\nUse 1 of your LRIG's Exceed 3 or less abilities without paying its cost. (Ignore its use timing.)"
     ]
   },
+  "1956": {
+    "pid": 1956,
+    "wxid": "PR-308",
+    "name": "Alexand, Peerless Conquest(WIXOSS PARTY参加賞selectors pack vol11)",
+    "extraTexts": [
+      "(Rise) Put on 1 of your level 1 red SIGNI"
+    ],
+    "constEffectTexts": [
+      "[Constant]: At the start of each turn's attack phase, until end of turn, 1 of your other red SIGNI gets \"can't be banished.\""
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
   "1957": {
     "pid": 1957,
     "wxid": "PR-309",
@@ -15938,6 +15952,15 @@
     "pid": 1996,
     "wxid": "PR-313",
     "name": "Arc Destruct(WIXOSS PARTY 2016年9-10月度congraturationカード)"
+  },
+  "1997": {
+    "pid": 1997,
+    "wxid": "PR-322",
+    "name": "Ultum, Wielder of the Key of Chalk(セレクターズパックウムル&タウィル　4パック購入特典)",
+    "actionEffectTexts": [
+      "[Action] [1/Turn] [Black0]: Put 1 black <Angel> SIGNI and 1 black <Ancient Weapon> SIGNI from your trash at the bottom of your deck in any order. If you do, put 1 of your opponent's SIGNI into the trash.",
+      "[Action] [Attack Phase] Exceed 2: Put 1 black SIGNI from your hand or trash onto the field. The [On-Play] of that SIGNI is not triggered."
+    ]
   },
   "1998": {
     "pid": 1998,
@@ -16254,5 +16277,1356 @@
       "Banish 1 of your <Cooking> SIGNI. If you do, search your deck for 1 <Cooking> SIGNI and put it into the Ener Zone. Then, shuffle your deck.",
       "Banish 1 of your <Cooking> SIGNI. If you do, banish 1 of your opponent's SIGNI with power 15000 or more."
     ]
+  },
+  "2036": {
+    "pid": 2036,
+    "wxid": "PR-330",
+    "name": "Perry, Black Ship of the Foreign Country(WIXOSS PARTY参加賞selectors pack vol12)",
+    "constEffectTexts": [
+      "[Auto] [2/Turn]: Whenever 1 of your SIGNI with Rise enters the field, until end of turn, this SIGNI gets +4000 power.",
+      "[Auto]: When this SIGNI attacks, banish 1 of your opponent's SIGNI with power less than this SIGNI's power."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2037": {
+    "pid": 2037,
+    "wxid": "PR-332",
+    "name": "Code Eat Unadon(WIXOSS PARTY参加賞selectors pack vol12)",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, if this SIGNI's power is 10000 or more, search your deck for 1 card with Accessory, put it into the Ener Zone, and shuffle your deck."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play] [Green0]: Accessorize this SIGNI with 1 <Cooking> SIGNI with Accessory in your Ener Zone."
+    ]
+  },
+  "2038": {
+    "pid": 2038,
+    "wxid": "PR-331",
+    "name": "PRANK(WIXOSS PARTY参加賞selectors pack vol12)",
+    "spellEffectTexts": [
+      "Choose 1 from the following 2.\n①Banish 1 of your <Trick> SIGNI. If you do, look at the top 3 cards of your deck. You may set 1 of them onto 1 of your SIGNI Zones as a [Trap]. Then, put the rest on the bottom of your deck in any order.\n②Banish 1 of your <Trick> SIGNI. If you do, add 1 of your [Trap] to your hand.",
+      "Banish 1 of your <Trick> SIGNI. If you do, look at the top 3 cards of your deck. You may set 1 of them onto 1 of your SIGNI Zones as a [Trap]. Then, put the rest on the bottom of your deck in any order.",
+      "Banish 1 of your <Trick> SIGNI. If you do, add 1 of your [Trap] to your hand."
+    ]
+  },
+  "2039": {
+    "pid": 2039,
+    "wxid": "WD10-012",
+    "name": "Nineteen, Explosive Gun"
+  },
+  "2040": {
+    "pid": 2040,
+    "wxid": "PR-340",
+    "name": "Aya! 0(WIXOSS対象商品1000円以上購入キャンペーン)"
+  },
+  "2041": {
+    "pid": 2041,
+    "wxid": "PR-341",
+    "name": "Nanashi, That Nothing (WIXOSS対象商品1000円以上購入キャンペーン)"
+  },
+  "2042": {
+    "pid": 2042,
+    "wxid": "WX15-001",
+    "name": "Ril, Memory of Truth",
+    "constEffectTexts": [
+      "[Constant]: All of your <Valor> SIGNI with [Rise] get +3000 power.",
+      "[Auto]: When your main phase starts, look at the top card of your deck. If it is a red SIGNI, you may put it onto the field."
+    ],
+    "actionEffectTexts": [
+      "[Action] Honest [Coin]: Your opponent reveals their hand, then they reveal 3 cards in their LRIG Deck. (If there are 2 or less cards, reveal all of them.)"
+    ]
+  },
+  "2043": {
+    "pid": 2043,
+    "wxid": "WX15-003",
+    "name": "Mel=Martini",
+    "constEffectTexts": [
+      "[Auto]: Whenever 1 of your accessorized SIGNI is banished other than by your effect, you may draw 1 card.",
+      "[Auto]: When your main phase starts, you may reveal the top 3 cards of your deck. Put a card with Accessory from among them into your Ener Zone, and put the rest on the bottom of your deck in any order."
+    ],
+    "actionEffectTexts": [
+      "[Action] Berserk [Coin] [Coin] [Coin]: During the next turn, your opponent can't use ARTS, spells, or [Action] abilities, and their SIGNI must attack if able."
+    ]
+  },
+  "2044": {
+    "pid": 2044,
+    "wxid": "WX15-005",
+    "name": "Finishing Touches on the Fire Dragon",
+    "artsEffectTexts": [
+      "Bet - [Coin] [Coin]\nSearch your deck for 1 SIGNI with Rise and put it onto the field. That SIGNI's [On-Play] abilities are not triggered. Then, shuffle your deck. Then, banish 1 of your opponent's SIGNI with power equal to or less than the power of the SIGNI put onto the field. If you bet, instead banish all of your opponent's SIGNI with power equal to or less than the power of the SIGNI put onto the field."
+    ]
+  },
+  "2045": {
+    "pid": 2045,
+    "wxid": "WX15-007",
+    "name": "Ril, Memory of Decadence"
+  },
+  "2046": {
+    "pid": 2046,
+    "wxid": "WX15-008",
+    "name": "Ril, Flickering Memory"
+  },
+  "2047": {
+    "pid": 2047,
+    "wxid": "WX15-009",
+    "name": "Ril, Memory of Mutual Favor",
+    "startUpEffectTexts": [
+      "[On-Play]: Gain [Coin]."
+    ]
+  },
+  "2048": {
+    "pid": 2048,
+    "wxid": "WX15-014",
+    "name": "Powerful Aya! I\t",
+    "startUpEffectTexts": [
+      "[On-Play] Discard 1 card from your hand: Gain [Coin]."
+    ]
+  },
+  "2049": {
+    "pid": 2049,
+    "wxid": "WX15-015",
+    "name": "Task Draw",
+    "artsEffectTexts": [
+      "Bet - [Coin] [Coin]\nDraw 2 cards. If you bet, instead draw 4 cards."
+    ]
+  },
+  "2050": {
+    "pid": 2050,
+    "wxid": "WX15-017",
+    "name": "Trip Trap",
+    "artsEffectTexts": [
+      "Flip 1 of your [Trap] face up and trigger its [Trap] ability."
+    ]
+  },
+  "2051": {
+    "pid": 2051,
+    "wxid": "WX15-020",
+    "name": "Mel=Kalua",
+    "startUpEffectTexts": [
+      "[On-Play] Discard 1 card from your hand: Gain [Coin]."
+    ]
+  },
+  "2052": {
+    "pid": 2052,
+    "wxid": "WX15-021",
+    "name": "Thundering Earthenware",
+    "artsEffectTexts": [
+      "Bet - [Coin]\nBanish 1 of your opponent's SIGNI with power 15000 or more. If you bet, additionally banish 1 of your opponent's SIGNI with power 12000 or more."
+    ]
+  },
+  "2053": {
+    "pid": 2053,
+    "wxid": "WX15-025",
+    "name": "Nanashi, That One Remodeled",
+    "startUpEffectTexts": [
+      "[On-Play] Discard 1 card from your hand: Gain [Coin]."
+    ]
+  },
+  "2054": {
+    "pid": 2054,
+    "wxid": "WX15-026",
+    "name": "Bio Hazard",
+    "artsEffectTexts": [
+      "Bet - [Coin] [Coin]\nPut 1 black SIGNI from your trash onto the field. If you bet, put 2 black SIGNI onto the field instead."
+    ]
+  },
+  "2055": {
+    "pid": 2055,
+    "wxid": "WX15-029",
+    "name": "More Coin Salvage",
+    "artsEffectTexts": [
+      "Bet - [Coin] [Coin]\nAdd 1 SIGNI with the same color as your LRIG from your trash to your hand. If you bet, instead add up to 2 SIGNI with the same color as your LRIG from your trash to your hand."
+    ]
+  },
+  "2056": {
+    "pid": 2056,
+    "wxid": "WX15-030",
+    "name": "Invest Charging",
+    "artsEffectTexts": [
+      "Bet - [Coin] [Coin]\nPut the top card of your deck into the Ener Zone. If you bet, instead put the top 2 cards of your deck into the Ener Zone."
+    ]
+  },
+  "2057": {
+    "pid": 2057,
+    "wxid": "WX15-032",
+    "name": "Odanobu, Great Demon of Pride",
+    "extraTexts": [
+      "(Rise) Put on 1 of your <Valor> SIGNI"
+    ],
+    "constEffectTexts": [
+      "[Constant]: If this SIGNI is in the middle SIGNI Zone, this SIGNI gets [Triple Crush]."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: Banish 1 of your opponent's SIGNI with power less than or equal to this SIGNI's power."
+    ],
+    "burstEffectTexts": [
+      "Choose 1.\n① Banish 1 of your opponent's SIGNI with 10000 power or less.\n② Search your deck for 1 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck.",
+      "Banish 1 of your opponent's SIGNI with 10000 power or less.",
+      "Search your deck for 1 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck."
+    ]
+  },
+  "2058": {
+    "pid": 2058,
+    "wxid": "WX15-033",
+    "name": "≡Garnet Star≡, Natural Star Princess",
+    "constEffectTexts": [
+      "[Auto]: Each time this SIGNI crushes 1 of your opponent's Life Cloth, you may pay [Colorless]. If you do, search your deck for 1 card and add it to your hand. Then, shuffle your deck."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: If your opponent has more Life Cloth than you, banish 1 SIGNI in your opponent's middle SIGNI Zone."
+    ],
+    "burstEffectTexts": [
+      "【※】：As long as your opponent does not discard 2 cards from their hand or put 2 cards in their Ener Zone into the trash, they put 1 of their SIGNI from the field into the trash."
+    ]
+  },
+  "2059": {
+    "pid": 2059,
+    "wxid": "WX15-035",
+    "name": "Honeytra, Super Trap",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, flip 1 [Trap] in the same SIGNI Zone as this SIGNI face up and trigger its [Trap] ability."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: Look at the top 2 cards of your deck. You may set 1 of them on 1 of your SIGNI Zone as a [Trap]. Then, put the rest on the bottom of your deck in any order."
+    ],
+    "burstEffectTexts": [
+      "【※】：Your opponent discards 1 card from their hand. If there is a [Trap] on your field, additionally down 1 of your opponent's SIGNI."
+    ]
+  },
+  "2060": {
+    "pid": 2060,
+    "wxid": "WX15-036",
+    "name": "§Otagame§, Great Phantom Insect",
+    "constEffectTexts": [
+      "[Auto]: When this card is placed from your hand into the trash, you may put this SIGNI from the trash onto the field."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: If there is another <Misfortune Insect> SIGNI on your field, down 1 of your opponent's SIGNI, and freeze it."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw 3 cards. Then, discard 2 cards from your hand."
+    ]
+  },
+  "2061": {
+    "pid": 2061,
+    "wxid": "WX15-037",
+    "name": "#Nobel#, Treasure of Colorful Wisdom",
+    "constEffectTexts": [
+      "[Constant]: This SIGNI gets +3000 power for each of your other <Wisdom> SIGNI on the field.",
+      "[Constant]: This SIGNI can attack your opponent's SIGNI Zones other than the one in front of this SIGNI. (If it attacks a SIGNI Zone, it doesn't damage the opponent.)"
+    ],
+    "burstEffectTexts": [
+      "【※】：Reveal the top card of your deck. If it is a <Wisdom> SIGNI, draw 2 cards. Otherwise, draw 1 card."
+    ]
+  },
+  "2062": {
+    "pid": 2062,
+    "wxid": "WX15-038",
+    "name": "Code Order Steak",
+    "constEffectTexts": [
+      "[Constant]: As long as this SIGNI is accessorized, this SIGNI gets [Lancer].",
+      "[Constant]: As long as this SIGNI is accessorized with \"Code Eat Teaksauce\", this SIGNI gets +3000 power, and this SIGNI is unaffected by the effects of your opponent's SIGNI."
+    ],
+    "burstEffectTexts": [
+      "Choose 1.\n① Banish 1 of your opponent's SIGNI with power 12000 or more.\n② [Ener Charge 2]",
+      "Banish 1 of your opponent's SIGNI with power 12000 or more.",
+      "[Ener Charge 2]"
+    ]
+  },
+  "2063": {
+    "pid": 2063,
+    "wxid": "WX15-039",
+    "name": "†Nihoningyo†, Death Play Princess",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, until end of turn, 1 of your opponent's SIGNI gets −4000 power. If the SIGNI's power becomes less than or equal to 0 by this effect, you may banish this SIGNI. If you do, put 1 <Playground Equipment> SIGNI from your trash onto the field."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: When this SIGNI enters the field by the effect of a SIGNI, add 1 <Playground Equipment> SIGNI from your trash to your hand."
+    ],
+    "burstEffectTexts": [
+      "【※】：Add 1 non-colorless SIGNI from your trash to your hand."
+    ]
+  },
+  "2064": {
+    "pid": 2064,
+    "wxid": "WX15-040",
+    "name": "Oigona, Natural Bacteria Princess",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, you may remove two [Virus] from your opponent's field. If you do, put this SIGNI from your Ener Zone onto the field."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: Until end of turn, 1 of your opponent's infected SIGNI gets −10000 power."
+    ],
+    "burstEffectTexts": [
+      "【※】：Until end of turn, 1 of your opponent's SIGNI gets −8000 power. If it is infected, it gets −12000 power instead."
+    ]
+  },
+  "2065": {
+    "pid": 2065,
+    "wxid": "WX15-041",
+    "name": "Akechi, Ruler of Three Days",
+    "extraTexts": [
+      "(Rise) Put on 1 of your level 2 or less red SIGNI."
+    ],
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, banish 1 of your opponent’s SIGNI with 7000 power or less."
+    ],
+    "burstEffectTexts": [
+      "Choose 1.\n① Draw 1 card.\n② Banish 1 of your opponent’s SIGNI with 5000 power or less.",
+      "Draw 1 card.",
+      "Banish 1 of your opponent’s SIGNI with 5000 power or less."
+    ]
+  },
+  "2066": {
+    "pid": 2066,
+    "wxid": "WX15-043",
+    "name": "Nohime, Returning Butterfly of Earnestness",
+    "constEffectTexts": [
+      "[Auto]: When your SIGNI with Rise enters the field on this SIGNI, draw 1 card."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2067": {
+    "pid": 2067,
+    "wxid": "WX15-044",
+    "name": "≡Regulus≡, Natural Star",
+    "actionEffectTexts": [
+      "[Action] [Down]: Draw 1 card. This ability can only be used if there is a level 3 or more SIGNI on your opponent's field."
+    ]
+  },
+  "2068": {
+    "pid": 2068,
+    "wxid": "WX15-047",
+    "name": "Oneclick, Large Trap",
+    "actionEffectTexts": [
+      "[Action] [Down]: You draw 1 card, or set 1 card from your hand on 1 of your SIGNI Zones as a [Trap]."
+    ],
+    "attachedEffectTexts": [
+      "You draw 1 card",
+      "Set 1 card from your hand on 1 of your SIGNI Zones as a [Trap]"
+    ]
+  },
+  "2069": {
+    "pid": 2069,
+    "wxid": "WX15-049",
+    "name": "Browcra, Small Trap",
+    "startUpEffectTexts": [
+      "[On-Play]: If there is no [Trap] on your field, look at the top 2 cards of your deck. You may set 1 card from among them on 1 of your SIGNI Zones as a [Trap]. Then, put the rest on the bottom of your deck in any order."
+    ]
+  },
+  "2070": {
+    "pid": 2070,
+    "wxid": "WX15-051",
+    "name": "§Kurumaba§, Phantom Insect",
+    "actionEffectTexts": [
+      "[Action] [Down] Discard 1 <Misfortune Insect> SIGNI from your hand: Draw 2 cards. Then, discard 1 card from your hand. "
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2071": {
+    "pid": 2071,
+    "wxid": "WX15-053",
+    "name": "SLASH OUT",
+    "spellEffectTexts": [
+      "Draw 3 cards. Then, discard 1 card from your hand."
+    ],
+    "extraTexts": [
+      "[Trap]: You may put 1 of your other [Trap] on the field into the trash, and pay [Blue]. If you do, banish 1 of your opponent's SIGNI."
+    ],
+    "burstEffectTexts": [
+      "Choose 1.\n① Draw 1 card.\n② Look at the top 2 cards of your deck, set any number of them as a [Trap], and put the rest into the trash.",
+      "Draw 1 card.",
+      "Look at the top 2 cards of your deck, set any number of them as a [Trap], and put the rest into the trash."
+    ]
+  },
+  "2072": {
+    "pid": 2072,
+    "wxid": "WX15-054",
+    "name": "#Multip#, Multiplication of Four Wisdoms",
+    "constEffectTexts": [
+      "[Constant]: If your LRIG is green, as long as this SIGNI is in your middle SIGNI Zone, this SIGNI gets \"Whenever this SIGNI crushes 1 of your opponent's Life Cloth, put the top 2 cards of your deck into the Ener Zone.\"."
+    ],
+    "burstEffectTexts": [
+      "【※】：Choose 1. ① Draw 1 card. ② [Ener Charge 1]",
+      "Draw 1 card.",
+      "[Ener Charge 1]"
+    ]
+  },
+  "2073": {
+    "pid": 2073,
+    "wxid": "WX15-057",
+    "name": "Code Eat Burger",
+    "actionEffectTexts": [
+      "[Action] [Down]: Put the top card of your deck into the Ener Zone. If it is a SIGNI with Accessory, additionally draw 1 card."
+    ]
+  },
+  "2074": {
+    "pid": 2074,
+    "wxid": "WX15-058",
+    "name": "Code Eat Teaksauce",
+    "startUpEffectTexts": [
+      "[On-Play] Discard a <Cooking> SIGNI from your hand: Put the top 2 cards of your deck into the Ener Zone."
+    ],
+    "actionEffectTexts": [
+      "[Action] [Green 0] Put this card from your Ener Zone under 1 of your SIGNI as an [Accessory]."
+    ],
+    "constEffectTexts": [
+      "[Constant]: The <Cooking> SIGNI accessorized with this gets \"When this SIGNI attacks, put the top card of your deck into the Ener Zone.\"."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2075": {
+    "pid": 2075,
+    "wxid": "WX15-061",
+    "name": "†Annabelle†, Wretched Play",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI banishes 1 of your opponent's SIGNI, you may pay Colorless. If you do, put this SIGNI into the trash. Then, put 1 SIGNI from your trash onto the field downed."
+    ]
+  },
+  "2076": {
+    "pid": 2076,
+    "wxid": "WX15-063",
+    "name": "†Waranin†, Different Blood Play",
+    "startUpEffectTexts": [
+      "[On-Play] [Colorless]: Put 1 level 2 or less <Playground Equipment> SIGNI from your trash onto the field downed."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2077": {
+    "pid": 2077,
+    "wxid": "WX15-064",
+    "name": "Madcow, Natural Bacteria",
+    "actionEffectTexts": [
+      "[Action] Down: Remove 1 [Virus] in the same SIGNI Zone as 1 of your opponent's infected SIGNI, and until end of turn, that SIGNI gets −7000 power. If that SIGNI's power becomes 0 or less by this effect, draw a card."
+    ]
+  },
+  "2078": {
+    "pid": 2078,
+    "wxid": "WX15-065",
+    "name": "Rabies, Natural Bacteria",
+    "startUpEffectTexts": [
+      "[On-Play]: Until end of turn, 1 of your opponent's infected SIGNI gets −3000 power."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2079": {
+    "pid": 2079,
+    "wxid": "WX15-073",
+    "name": "Arthra, Victory of the Round Table",
+    "extraTexts": [
+      "(Rise) Put on 1 of your level 1 red SIGNI"
+    ],
+    "startUpEffectTexts": [
+      "[On-Play]: Banish 1 of your opponent's SIGNI with power 1000 or less.",
+      "[On-Play]: Draw 1 card."
+    ]
+  },
+  "2080": {
+    "pid": 2080,
+    "wxid": "WX15-075",
+    "name": "Yellow Turban, Yellow Soldier of Uprising",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, you may pay Red. If you do, search your deck for 1 level 2 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck."
+    ]
+  },
+  "2081": {
+    "pid": 2081,
+    "wxid": "WX15-076",
+    "name": "≡Almach≡, Natural Star",
+    "actionEffectTexts": [
+      "[Action] [Down] Put 1 <Space> SIGNI from your Ener Zone into the trash: Banish all of your opponent's SIGNI with power 7000 or less."
+    ]
+  },
+  "2082": {
+    "pid": 2082,
+    "wxid": "WX15-081",
+    "name": "Bananan, Super Trap",
+    "extraTexts": [
+      "[Trap]: Down 2 of your opponent's SIGNI."
+    ],
+    "burstEffectTexts": [
+      "【※】：Down 2 of your opponent's SIGNI."
+    ]
+  },
+  "2083": {
+    "pid": 2083,
+    "wxid": "WX15-082",
+    "name": "Kabuto Honey, Large Trap",
+    "startUpEffectTexts": [
+      "[On-Play]: Look at the top 2 cards of your deck. Set 1 of them on 1 of your SIGNI Zones as a [Trap]. Then, put the rest on the bottom of your deck in any order."
+    ]
+  },
+  "2084": {
+    "pid": 2084,
+    "wxid": "WX15-085",
+    "name": "Shpin, Medium Trap",
+    "extraTexts": [
+      "[Trap]: Freeze all of your opponent's SIGNI."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2085": {
+    "pid": 2085,
+    "wxid": "WX15-087",
+    "name": "Itete, Small Trap",
+    "extraTexts": [
+      "[Trap]: Choose 1 card from your opponent's hand without looking, and discard it."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2086": {
+    "pid": 2086,
+    "wxid": "WX15-088",
+    "name": "§Queen Ant§, Phantom Insect",
+    "actionEffectTexts": [
+      "[Action] [Down] Put 1 <Misfortune Insect> SIGNI from your Ener Zone into the trash: Draw 2 cards."
+    ]
+  },
+  "2087": {
+    "pid": 2087,
+    "wxid": "WX15-092",
+    "name": "HOLE OUT",
+    "spellEffectTexts": [
+      "Look at the top 4 cards of your deck. You may set 1 card from among them on 1 of your SIGNI Zone as a [Trap]. Then, put the rest on the bottom of your deck in any order."
+    ]
+  },
+  "2088": {
+    "pid": 2088,
+    "wxid": "WX15-096",
+    "name": "#Fermat#, Formula of Theoretical Wisdom",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 <Wisdom> SIGNI on your field, this SIGNI can attack the SIGNI Zones next to the one in front of this SIGNI."
+    ]
+  },
+  "2089": {
+    "pid": 2089,
+    "wxid": "WX15-100",
+    "name": "Code Eat Shoropo",
+    "constEffectTexts": [
+      "[Constant]: As long as this SIGNI is accessorized, this SIGNI's power becomes 8000."
+    ]
+  },
+  "2090": {
+    "pid": 2090,
+    "wxid": "WX15-101",
+    "name": "Code Eat Hoshigaki",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, if this SIGNI is accessorized, draw 1 card."
+    ]
+  },
+  "2091": {
+    "pid": 2091,
+    "wxid": "WX15-102",
+    "name": "Code Eat Fried Egg",
+    "actionEffectTexts": [
+      "[Action] [Green 0] Put this card from your Ener Zone under 1 of your SIGNI as an [Accessory]."
+    ],
+    "constEffectTexts": [
+      "[Constant]: The <Cooking> SIGNI accessorized with this gets \"This SIGNI is unaffected by the effects of your opponent's SIGNI.\""
+    ]
+  },
+  "2092": {
+    "pid": 2092,
+    "wxid": "WX15-104",
+    "name": "Code Eat Sweet Potato",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, if this SIGNI is accessorized, put the top card of your deck into the Ener Zone."
+    ]
+  },
+  "2093": {
+    "pid": 2093,
+    "wxid": "WX15-105",
+    "name": "Code Eat Torochee",
+    "actionEffectTexts": [
+      "[Action] [Green 0] Put this card from your Ener Zone under 1 of your SIGNI as an [Accessory]."
+    ],
+    "constEffectTexts": [
+      "[Constant]: The <Cooking> SIGNI accessorized with this gets \"This SIGNI is unaffected by the effects of your opponent's spells.\""
+    ]
+  },
+  "2094": {
+    "pid": 2094,
+    "wxid": "WX15-108",
+    "name": "†Saramawa†, Wretched Play",
+    "startUpEffectTexts": [
+      "[On-Play]: When this SIGNI enters the field by the effect of a SIGNI, until end of turn, 1 of your opponent's SIGNI gets −7000 power."
+    ]
+  },
+  "2095": {
+    "pid": 2095,
+    "wxid": "WX15-112",
+    "name": "Previs, Natural Bacteria",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, put a [Virus] on 2 of your opponent's SIGNI Zones 1 at a time."
+    ]
+  },
+  "2096": {
+    "pid": 2096,
+    "wxid": "WX15-113",
+    "name": "Mentagro, Natural Bacteria",
+    "startUpEffectTexts": [
+      "[On-Play] Discard 1 <Bacteria> SIGNI from your hand: Draw a card. Then, put 1 [Virus] on 1 of your opponent's SIGNI Zones."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2097": {
+    "pid": 2097,
+    "wxid": "WX15-114",
+    "name": "Plantam, Natural Bacteria",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, put 1 [Virus] on 1 of your opponent's SIGNI Zones."
+    ]
+  },
+  "2098": {
+    "pid": 2098,
+    "wxid": "WX15-117",
+    "name": "Acnes, Natural Bacteria",
+    "actionEffectTexts": [
+      "[Action] [Down]: Remove 1 [Virus] on your opponent's field. If you do, draw 1 card."
+    ]
+  },
+  "2099": {
+    "pid": 2099,
+    "wxid": "WX15-118",
+    "name": "Black Tie Up",
+    "spellEffectTexts": [
+      "Until end of turn, all of your opponent's SIGNI get −2000 power. Then, until end of turn, all of your opponent's infected SIGNI get −3000 power."
+    ]
+  },
+  "2100": {
+    "pid": 2100,
+    "wxid": "WX15-119",
+    "name": "Servant Q2"
+  },
+  "2101": {
+    "pid": 2101,
+    "wxid": "WX15-120",
+    "name": "Servant T2"
+  },
+  "2102": {
+    "pid": 2102,
+    "wxid": "WX15-121",
+    "name": "Servant D2"
+  },
+  "2103": {
+    "pid": 2103,
+    "wxid": "WX15-122",
+    "name": "Servant O2"
+  },
+  "2104": {
+    "pid": 2104,
+    "wxid": "WX15-123",
+    "name": "Jetting Knowledge"
+  },
+  "2105": {
+    "pid": 2105,
+    "wxid": "WX15-Re01",
+    "name": "Flaming Stubbornness"
+  },
+  "2106": {
+    "pid": 2106,
+    "wxid": "WX15-Re02",
+    "name": "Bloody Slash"
+  },
+  "2107": {
+    "pid": 2107,
+    "wxid": "WX15-Re03",
+    "name": "Budo, Small Gun"
+  },
+  "2108": {
+    "pid": 2108,
+    "wxid": "WX15-Re04",
+    "name": "Cyua, Natural Stone"
+  },
+  "2109": {
+    "pid": 2109,
+    "wxid": "WX15-Re05",
+    "name": "Fracturing Lust"
+  },
+  "2110": {
+    "pid": 2110,
+    "wxid": "WX15-Re06",
+    "name": "Code Art TAP"
+  },
+  "2111": {
+    "pid": 2111,
+    "wxid": "WX15-Re07",
+    "name": "FREEZE THROUGH"
+  },
+  "2112": {
+    "pid": 2112,
+    "wxid": "WX15-Re08",
+    "name": "THREE OUT"
+  },
+  "2113": {
+    "pid": 2113,
+    "wxid": "WX15-Re09",
+    "name": "Kano, Natural Plant"
+  },
+  "2114": {
+    "pid": 2114,
+    "wxid": "WX15-Re10",
+    "name": "Kayappa, Natural Plant"
+  },
+  "2115": {
+    "pid": 2115,
+    "wxid": "WX15-Re11",
+    "name": "Cyclamen, Natural Plant"
+  },
+  "2116": {
+    "pid": 2116,
+    "wxid": "WX15-Re12",
+    "name": "Three Swords"
+  },
+  "2117": {
+    "pid": 2117,
+    "wxid": "WX15-Re13",
+    "name": "Ein=Dagger"
+  },
+  "2118": {
+    "pid": 2118,
+    "wxid": "WX15-Re14",
+    "name": "Code Anti Palbek"
+  },
+  "2119": {
+    "pid": 2119,
+    "wxid": "WX15-Re15",
+    "name": "Code Anti Mage"
+  },
+  "2120": {
+    "pid": 2120,
+    "wxid": "PR-325",
+    "name": "Don't Escape（セレクターズパックvol.デッキ初回特典）"
+  },
+  "2121": {
+    "pid": 2121,
+    "wxid": "PR-323",
+    "name": "Pinch Defense（セレクターズパックvol.デッキ初回特典）"
+  },
+  "2122": {
+    "pid": 2122,
+    "wxid": "PR-324",
+    "name": "Interwoven Fire and Fortune（セレクターズパックvol.デッキ初回特典）"
+  },
+  "2123": {
+    "pid": 2123,
+    "wxid": "PR-326",
+    "name": "Vanish Like Mist（セレクターズパックvol.デッキ初回特典）"
+  },
+  "2124": {
+    "pid": 2124,
+    "wxid": "PR-327",
+    "name": "Ancient Gate（セレクターズパックvol.デッキ初回特典）"
+  },
+  "2125": {
+    "pid": 2125,
+    "wxid": "WX15-002",
+    "name": "Miracle Aya! IV",
+    "constEffectTexts": [
+      "[Auto]: When your main phase starts, look at the top 2 cards of your deck. You may set 1 of them on 1 of your SIGNI Zones as a [Trap]. Then, put the rest on the bottom of your deck in any order."
+    ],
+    "startUpEffectTexts": [
+      "[On-Play] Holograph [Coin] [Coin]: During this game, this LRIG gets \"Whenever 1 of your opponent's LRIGs attacks, your opponent declares if the top card of your deck is a [Trap] or not. Reveal the top card of your deck. If the declaration was wrong, you are not damaged this attack.\"."
+    ],
+    "attachedEffectTexts": [
+      "Whenever 1 of your opponent's LRIGs attacks, your opponent declares if the top card of your deck is a [Trap] or not. Reveal the top card of your deck. If the declaration was wrong, you are not damaged this attack."
+    ]
+  },
+  "2126": {
+    "pid": 2126,
+    "wxid": "WX15-004",
+    "name": "Nanashi, That Four Another",
+    "constEffectTexts": [
+      "[Constant]: All of your opponent's infected SIGNI get −1000 power.",
+      "[Auto]: When your main phase starts, put 1 [Virus] on 1 of your opponent's SIGNI Zones."
+    ],
+    "actionEffectTexts": [
+      "[Action] Blind [Coin] [Coin]: During your opponent's next turn, all of your SIGNI get [Shadow]."
+    ]
+  },
+  "2127": {
+    "pid": 2127,
+    "wxid": "WX15-006",
+    "name": "Painful Separation from Loved Ones",
+    "artsEffectTexts": [
+      "This ARTS can only be used during your opponent's turn.\nBet - [Coin]\nThis turn, whenever 1 of your SIGNI is banished other than by your own effect, banish 1 of your opponent's SIGNI.\nIf you bet, this turn, whenever 1 of your SIGNI is banished other than by your own effect, additionally add the top card of your deck to Life Cloth."
+    ]
+  },
+  "2128": {
+    "pid": 2128,
+    "wxid": "WX15-010",
+    "name": "Your Flame, Martyred Name",
+    "artsEffectTexts": [
+      "Until end of turn, all of your <Valor> SIGNI get \"When this SIGNI is banished, disable that banish once.\"."
+    ]
+  },
+  "2129": {
+    "pid": 2129,
+    "wxid": "WX15-011",
+    "name": "Flame-Awned Flash",
+    "artsEffectTexts": [
+      "Banish all of your opponent's SIGNI with power 1000 or less."
+    ]
+  },
+  "2130": {
+    "pid": 2130,
+    "wxid": "WX15-012",
+    "name": "Super Aya! III"
+  },
+  "2131": {
+    "pid": 2131,
+    "wxid": "WX15-013",
+    "name": "Great Aya! II"
+  },
+  "2132": {
+    "pid": 2132,
+    "wxid": "WX15-016",
+    "name": "Slip Knot",
+    "artsEffectTexts": [
+      "Until end of turn, your LRIG gets \"Whenever 1 of your opponent's SIGNI attacks, you may put the top card of your deck into the trash. If the card that was put into the trash this way had Life Burst, disable that attack.\"."
+    ],
+    "attachedEffectTexts": [
+      "Whenever 1 of your opponent's SIGNI attacks, you may put the top card of your deck into the trash. If the card that was put into the trash this way had Life Burst, disable that attack."
+    ]
+  },
+  "2133": {
+    "pid": 2133,
+    "wxid": "WX15-018",
+    "name": "Mel=Kir"
+  },
+  "2134": {
+    "pid": 2134,
+    "wxid": "WX15-019",
+    "name": "Mel=Campari"
+  },
+  "2135": {
+    "pid": 2135,
+    "wxid": "WX15-022",
+    "name": "Adapting to Changed Circumstances",
+    "artsEffectTexts": [
+      "Search your deck for 1 SIGNI with Accessory and put it into the Ener Zone. Then, shuffle your deck."
+    ]
+  },
+  "2136": {
+    "pid": 2136,
+    "wxid": "WX15-023",
+    "name": "Nanashi, That Three"
+  },
+  "2137": {
+    "pid": 2137,
+    "wxid": "WX15-024",
+    "name": "Nanashi, That Two"
+  },
+  "2138": {
+    "pid": 2138,
+    "wxid": "WX15-027",
+    "name": "Spread Death",
+    "artsEffectTexts": [
+      "Until end of turn, 1 of your opponent's SIGNI gets −7000 power. If that SIGNI is infected, it gets −12000 instead."
+    ]
+  },
+  "2139": {
+    "pid": 2139,
+    "wxid": "WX15-028",
+    "name": "Abnormal Lover",
+    "artsEffectTexts": [
+      "Remove any number of [Virus] from your opponent's field. Then, for each [Virus] removed this way, add 1 black SIGNI from your trash to your hand."
+    ]
+  },
+  "2140": {
+    "pid": 2140,
+    "wxid": "WX15-031",
+    "name": "Nurari, Phantom Apparition Princess",
+    "constEffectTexts": [
+      "[Layer Constant]: This SIGNI is unaffected by the effects of your opponent's ARTS and spells with total cost 5 or more."
+    ],
+    "burstEffectTexts": [
+      "【※】：Return 1 of your opponent's SIGNI to their hand."
+    ]
+  },
+  "2141": {
+    "pid": 2141,
+    "wxid": "WX15-034",
+    "name": "Ark of Fighting Spirit",
+    "spellEffectTexts": [
+      "If there is a SIGNI with power 15000 or more on your field, the cost to use this spell is reduced by 2 [Red].\nChoose up to 2 from the following 2.\n① Search your deck for a <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck.\n② If there is a SIGNI with Rise on your field, banish 1 of your opponent's SIGNI.\n",
+      "Search your deck for a <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck.",
+      "If there is a SIGNI with Rise on your field, banish 1 of your opponent's SIGNI."
+    ]
+  },
+  "2142": {
+    "pid": 2142,
+    "wxid": "WX15-042",
+    "name": "Ranma, Two Swords Attendant",
+    "startUpEffectTexts": [
+      "[On-Play] Discard 1 SIGNI with Rise from your hand: Search your deck for 1 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2143": {
+    "pid": 2143,
+    "wxid": "WX15-045",
+    "name": "≡Hadar≡, Natural Star",
+    "startUpEffectTexts": [
+      "[On-Play]: If your opponent has 2 or less cards in their hand, you draw 1 card."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2144": {
+    "pid": 2144,
+    "wxid": "WX15-046",
+    "name": "羅星　≡アンタレス≡",
+    "startUpEffectTexts": [
+      "[On-Play]: If there is a SIGNI with 1000 power on your opponent's field, you draw 1 card."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2145": {
+    "pid": 2145,
+    "wxid": "WX15-048",
+    "name": "Comrus, Medium Trap",
+    "startUpEffectTexts": [
+      "[On-Play]: If there is a [Trap] on your field, draw 1 card."
+    ]
+  },
+  "2146": {
+    "pid": 2146,
+    "wxid": "WX15-050",
+    "name": "§Tonosama§, Phantom Insect",
+    "actionEffectTexts": [
+      "[Action] [Down]: Draw 1 card. This ability can only be used if there is another <Misfortune Insect> SIGNI on your field."
+    ]
+  },
+  "2147": {
+    "pid": 2147,
+    "wxid": "WX15-052",
+    "name": "§Shouryou§, Phantom Insect",
+    "actionEffectTexts": [
+      "[Action] [Down] Discard 1 <Misfortune Insect> SIGNI from your hand: Draw 1 card. "
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2148": {
+    "pid": 2148,
+    "wxid": "WX15-055",
+    "name": "#Minu#, Subtraction of Four Wisdoms",
+    "constEffectTexts": [
+      "[Auto]: During your attack phase, whenever the SIGNI in front of this SIGNI is banished, if this SIGNI is upped, you draw 1 card."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2149": {
+    "pid": 2149,
+    "wxid": "WX15-056",
+    "name": "#Plus#, Addition of Four Wisdoms",
+    "constEffectTexts": [
+      "[Auto]: During your attack phase, whenever the SIGNI in front of this SIGNI is banished, if this SIGNI is upped, put the top card of your deck into the Ener Zone."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2150": {
+    "pid": 2150,
+    "wxid": "WX15-059",
+    "name": "Code Eat Fripota",
+    "constEffectTexts": [
+      "[Auto] [1/Turn]: When 1 of your SIGNI is accessorized, you may put 1 <Cooking> SIGNI from your hand into the Ener Zone. If you do, draw 1 card.\n(This effect can only be triggered once per turn. Even if you choose not to put a card into the Ener Zone, it is included in the once per turn limit.)"
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2151": {
+    "pid": 2151,
+    "wxid": "WX15-060",
+    "name": "Extreme Food",
+    "spellEffectTexts": [
+      "The cost to use this spell is reduced by 1 [Green] for each accessorized <Cooking> SIGNI on your field.\nBanish 1 of your opponent's SIGNI with power equal to or less than 1 of your SIGNI. If you do, put the top card of your deck into the Ener Zone."
+    ]
+  },
+  "2152": {
+    "pid": 2152,
+    "wxid": "WX15-062",
+    "name": "†Chucky†, Imitating Play",
+    "startUpEffectTexts": [
+      "[On-Play] [Colorless]: Put 1 level 3 or less <Playground Equipment> SIGNI from your trash onto the field downed."
+    ],
+    "burstEffectTexts": [
+      "【※】： [Ener Charge 1]"
+    ]
+  },
+  "2153": {
+    "pid": 2153,
+    "wxid": "WX15-066",
+    "name": "Echinoco, Natural Bacteria",
+    "constEffectTexts": [
+      "[Constant]: All of your opponent's infected SIGNI get −1000 power."
+    ],
+    "burstEffectTexts": [
+      "【※】：Draw one card."
+    ]
+  },
+  "2154": {
+    "pid": 2154,
+    "wxid": "WX15-067",
+    "name": "Melt Fact",
+    "spellEffectTexts": [
+      "When you use this spell, you may remove any number of [Virus] from your opponent's field. If 1 or more [Virus] was removed this way, the cost to use this spell is reduced by 2 [Black].\nChoose 1 of the following 2. If you removed 2 or more [Virus] as you used this spell, choose 2 instead.\n① Add 1 black SIGNI from your trash to your hand.\n② Until end of turn, 1 of your opponent's SIGNI gets −7000 power.",
+      "Add 1 black SIGNI from your trash to your hand.",
+      "Until end of turn, 1 of your opponent's SIGNI gets −7000 power."
+    ]
+  },
+  "2155": {
+    "pid": 2155,
+    "wxid": "WX15-068",
+    "name": "Meng Huo, Southern King of the Four Prefectures",
+    "actionEffectTexts": [
+      "[Action] [Down] Put 1 <Valor> SIGNI from your Ener Zone into the trash: Banish 1 of your opponent's SIGNI with power 10000 or less.",
+      "[Action] [Down]: Banish 1 of your opponent's SIGNI with power 12000 or less. This ability can only be used if there is a SIGNI with Rise on your field."
+    ]
+  },
+  "2156": {
+    "pid": 2156,
+    "wxid": "WX15-069",
+    "name": "Zhurong, Flaming Body of the Four Prefectures",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, you may pay [Red]. If you do, search your deck for 1 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck."
+    ]
+  },
+  "2157": {
+    "pid": 2157,
+    "wxid": "WX15-070",
+    "name": "Bors, Holy Body of the Round Table",
+    "actionEffectTexts": [
+      "[Action] [Down]: Until end of turn, 1 of your SIGNI with Rise gets [Double Crush]."
+    ]
+  },
+  "2158": {
+    "pid": 2158,
+    "wxid": "WX15-071",
+    "name": "Kay, Broken Sword of the Round Table",
+    "actionEffectTexts": [
+      "[Action] [Down]: Banish 1 of your opponent's SIGNI with power 5000 or less. This ability can only be used if there is a SIGNI with Rise on your field."
+    ]
+  },
+  "2159": {
+    "pid": 2159,
+    "wxid": "WX15-072",
+    "name": "Zhang Jiao, Yellow Leader of Talisman Arts",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, you may pay Red. If you do, search your deck for 1 level 1 <Valor> SIGNI, reveal it, and add it to your hand. Then, shuffle your deck."
+    ]
+  },
+  "2160": {
+    "pid": 2160,
+    "wxid": "WX15-074",
+    "name": "Gareth, White Spear of the Round Table",
+    "actionEffectTexts": [
+      "[Action] [Down]: Banish 1 of your opponent's SIGNI with power 2000 or less. This ability can only be used if there is a SIGNI with Rise on your field."
+    ]
+  },
+  "2161": {
+    "pid": 2161,
+    "wxid": "WX15-077",
+    "name": "≡Betelgeuse≡, Natural Star",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 SIGNI on your opponent's field, this SIGNI's power becomes 12000."
+    ]
+  },
+  "2162": {
+    "pid": 2162,
+    "wxid": "WX15-078",
+    "name": "≡Sirius≡, Natural Star",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 SIGNI on your opponent's field, this SIGNI's power becomes 8000."
+    ]
+  },
+  "2163": {
+    "pid": 2163,
+    "wxid": "WX15-079",
+    "name": "≡Procyon≡, Natural Star",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 SIGNI on your opponent's field, this SIGNI's power becomes 5000."
+    ]
+  },
+  "2164": {
+    "pid": 2164,
+    "wxid": "WX15-080",
+    "name": "Differing Thoughts",
+    "spellEffectTexts": [
+      "Banish 1 of your opponent's SIGNI with power 5000 or less. If there is a SIGNI with Rise on your field, additionally banish 1 of your opponent's SIGNI with power 7000 or less."
+    ]
+  },
+  "2165": {
+    "pid": 2165,
+    "wxid": "WX15-083",
+    "name": "Slichair, Large Trap",
+    "extraTexts": [
+      "[Trap]: Look at the top 2 cards of your deck. Set 1 of them on 1 of your SIGNI Zones as a [Trap], and put the rest into your hand."
+    ],
+    "burstEffectTexts": [
+      "【※】：Look at the top card of your deck. Put that card into your hand or set it on 1 of your SIGNI Zones as a [Trap]."
+    ]
+  },
+  "2166": {
+    "pid": 2166,
+    "wxid": "WX15-084",
+    "name": "Katori, Medium Trap",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, look at the top card of your deck. You may set that card or 1 card from your hand on 1 of your SIGNI Zones as a [Trap]."
+    ]
+  },
+  "2167": {
+    "pid": 2167,
+    "wxid": "WX15-086",
+    "name": "Roach Motel, Small Trap",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, look at the top card of your deck. You may set that card on 1 of your SIGNI Zones as a [Trap]."
+    ]
+  },
+  "2168": {
+    "pid": 2168,
+    "wxid": "WX15-089",
+    "name": "§Soldier Ant§, Phantom Insect",
+    "constEffectTexts": [
+      "[Constant]: As long as there is a SIGNI with power 10000 or more on your opponent's field, this SIGNI's power becomes 12000."
+    ]
+  },
+  "2169": {
+    "pid": 2169,
+    "wxid": "WX15-090",
+    "name": "§Work Ant§, Phantom Insect",
+    "constEffectTexts": [
+      "[Constant]: As long as there is a SIGNI with power 7000 or more on your opponent's field, this SIGNI's power becomes 8000."
+    ]
+  },
+  "2170": {
+    "pid": 2170,
+    "wxid": "WX15-091",
+    "name": "§Child Ant§, Phantom Insect",
+    "constEffectTexts": [
+      "[Constant]: As long as there is a SIGNI with power 3000 or more on your opponent's field, this SIGNI's power becomes 5000."
+    ]
+  },
+  "2171": {
+    "pid": 2171,
+    "wxid": "WX15-093",
+    "name": "#Fibonacci#, Formula of True Wisdom",
+    "actionEffectTexts": [
+      "[Action] [Down]: Until end of turn, 1 of your <Wisdom> SIGNI gets \"This SIGNI can attack your opponent's SIGNI Zones other than the one in front of this SIGNI.\""
+    ]
+  },
+  "2172": {
+    "pid": 2172,
+    "wxid": "WX15-094",
+    "name": "#Pascal#, Formula of Propagating Wisdom",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 <Wisdom> SIGNI on your field, this SIGNI can attack the SIGNI Zones next to the one in front of this SIGNI."
+    ]
+  },
+  "2173": {
+    "pid": 2173,
+    "wxid": "WX15-095",
+    "name": "#Descartes#, Formula of Sage Wisdom",
+    "constEffectTexts": [
+      "[Constant]: As long as there are 3 <Wisdom> SIGNI on your field, this SIGNI can attack the SIGNI Zones next to the one in front of this SIGNI."
+    ]
+  },
+  "2174": {
+    "pid": 2174,
+    "wxid": "WX15-097",
+    "name": "Code Eat Yakisanma",
+    "actionEffectTexts": [
+      "[Action] [Down] Put 1 card with Accessory from your Ener Zone into the trash: Banish 1 of your opponent's SIGNI with power 12000 or more."
+    ]
+  },
+  "2175": {
+    "pid": 2175,
+    "wxid": "WX15-098",
+    "name": "Code Eat Kurikin",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI attacks, if this SIGNI is accessorized, put the top card of your deck into the Ener Zone, and draw 1 card."
+    ]
+  },
+  "2176": {
+    "pid": 2176,
+    "wxid": "WX15-099",
+    "name": "Code Eat Shiumai",
+    "constEffectTexts": [
+      "[Constant]: As long as this SIGNI is accessorized, this SIGNI's power becomes 12000."
+    ]
+  },
+  "2177": {
+    "pid": 2177,
+    "wxid": "WX15-103",
+    "name": "Code Eat Gyoz",
+    "constEffectTexts": [
+      "[Constant]: As long as this SIGNI is accessorized, this SIGNI's power becomes 5000."
+    ]
+  },
+  "2178": {
+    "pid": 2178,
+    "wxid": "WX15-106",
+    "name": "Strict Attire",
+    "spellEffectTexts": [
+      "Put the top 2 cards of your deck into the Ener Zone. If 1 or more cards with Accessory were put into the Ener Zone this way, put an additional card from the top of your deck into the Ener Zone."
+    ]
+  },
+  "2179": {
+    "pid": 2179,
+    "wxid": "WX15-107",
+    "name": "†Yoyo†, Death Play",
+    "actionEffectTexts": [
+      "[Action] [Down] Put 1 <Playground Equipment> SIGNI from your Ener Zone into the trash: Until end of turn, 1 of your opponent's SIGNI gets −10000 power."
+    ]
+  },
+  "2180": {
+    "pid": 2180,
+    "wxid": "WX15-109",
+    "name": "†Shigabosu†, Imitating Play",
+    "startUpEffectTexts": [
+      "[On-Play]: When this SIGNI enters the field by the effect of a SIGNI, until end of turn, 1 of your opponent's SIGNI gets −3000 power."
+    ]
+  },
+  "2181": {
+    "pid": 2181,
+    "wxid": "WX15-110",
+    "name": "†Kendama†, Different Blood Play",
+    "startUpEffectTexts": [
+      "[On-Play]: When this SIGNI enters the field by the effect of a SIGNI, until end of turn, 1 of your opponent's SIGNI gets −3000 power."
+    ]
+  },
+  "2182": {
+    "pid": 2182,
+    "wxid": "WX15-111",
+    "name": "Lactis, Natural Bacteria",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, choose 1 of the following 2.\n① Put 1 [Virus] on each of your opponent's SIGNI Zones.\n② Until end of turn, all of your opponent's infected SIGNI get −5000 power."
+    ]
+  },
+  "2183": {
+    "pid": 2183,
+    "wxid": "WX15-115",
+    "name": "Giftero, Natural Bacteria",
+    "actionEffectTexts": [
+      "[Action] [Down]: Remove 1 [Virus] in the same SIGNI Zone as 1 of your opponent's infected SIGNI, and until end of turn, that SIGNI gets −5000 power."
+    ]
+  },
+  "2184": {
+    "pid": 2184,
+    "wxid": "WX15-116",
+    "name": "Yogurti, Natural Bacteria",
+    "constEffectTexts": [
+      "[Auto]: When this SIGNI is banished, put 1 [Virus] on 1 of your opponent's SIGNI Zones."
+    ]
+  },
+  "2185": {
+    "pid": 2185,
+    "wxid": "PR-350",
+    "name": "Ril(セレクターナイトパックvol.1)"
+  },
+  "2186": {
+    "pid": 2186,
+    "wxid": "PR-351",
+    "name": "Aya(セレクターナイトパックvol.1)"
+  },
+  "2187": {
+    "pid": 2187,
+    "wxid": "PR-352",
+    "name": "Mel(セレクターナイトパックvol.1)"
+  },
+  "2188": {
+    "pid": 2188,
+    "wxid": "PR-353",
+    "name": "Nanashi(セレクターナイトパックvol.1)"
+  },
+  "2189": {
+    "pid": 2189,
+    "wxid": "SP20-005",
+    "name": "Mama 0（ウインタールリグパック vol.1）"
+  },
+  "2190": {
+    "pid": 2190,
+    "wxid": "SP20-006",
+    "name": "Nanashi, That Nothing（ウインタールリグパック vol.1）"
+  },
+  "2191": {
+    "pid": 2191,
+    "wxid": "SP20-001",
+    "name": "Donna START（ウインタールリグパック vol.1）"
+  },
+  "2192": {
+    "pid": 2192,
+    "wxid": "SP20-002",
+    "name": "Ril, Memory of Innocence（ウインタールリグパック vol.1）"
+  },
+  "2193": {
+    "pid": 2193,
+    "wxid": "SP20-003",
+    "name": "Aya! ０（ウインタールリグパック vol.1）"
+  },
+  "2194": {
+    "pid": 2194,
+    "wxid": "SP20-004",
+    "name": "Mel=Ready（ウインタールリグパック vol.1）"
+  },
+  "2195": {
+    "pid": 2195,
+    "wxid": "PR-342",
+    "name": "Donna START（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
+  },
+  "2196": {
+    "pid": 2196,
+    "wxid": "PR-343",
+    "name": "Ril, Memory of Innocence（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
+  },
+  "2197": {
+    "pid": 2197,
+    "wxid": "PR-344",
+    "name": "Aya! 0（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
+  },
+  "2198": {
+    "pid": 2198,
+    "wxid": "PR-345",
+    "name": "Mel=Ready（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
+  },
+  "2199": {
+    "pid": 2199,
+    "wxid": "PR-346",
+    "name": "Mama 0（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
+  },
+  "2200": {
+    "pid": 2200,
+    "wxid": "PR-347",
+    "name": "Nanashi, That Nothing（タカラトミーキャラカードくじコレクション　Lostorage ver.）"
   }
 }
