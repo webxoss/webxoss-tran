@@ -29,7 +29,7 @@ export default {
         jp: this.CardInfo,
         en: this.CardInfo_en,
       }[this.refer] || this.CardInfo
-      return CardInfo[this.pid] || null
+      return CardInfo[this.pid] || this.CardInfo[this.pid]
     },
     translatingCard() {
       if (!this.card) return null
