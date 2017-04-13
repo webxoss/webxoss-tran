@@ -16,6 +16,8 @@ export default {
     lang: '',
     pidInput: 1,
     translation: {},
+
+    blobUrl: '',
   }),
   computed: {
     pid() {
@@ -49,11 +51,6 @@ export default {
     },
     src() {
       return 'https://webxoss.com/images/' + `0000${this.pid}`.slice(-4) + '.jpg'
-    },
-    fileUrl() {
-      let json = JSON.stringify(this.translation)
-      let url = `data:application/octet-stream;base64,${btoa(unescape(encodeURIComponent(json)))}`
-      return url
     },
   },
   watch: {
@@ -124,6 +121,19 @@ export default {
       }
       reader.readAsText(file)
     },
+    exportFile() {
+      let json = JSON.stringify(this.translation)
+      let blob = new Blob([json], {
+        type: 'application/octet-stream',
+      })
+      URL.revokeObjectURL(this.blobUrl)
+      this.blobUrl = URL.createObjectURL(blob)
+      this.$nextTick().then(() => {
+        if (this.$refs.download) {
+          this.$refs.download.click()
+        }
+      })
+    },
   },
   created() {
     this.load()
@@ -152,7 +162,8 @@ export default {
           <button>import</button>
           <input :class="$style.fileInput" @change="importFile" type="file">
         </span>
-        <a :href="fileUrl" :download="(lang || 'translation') + '.json'"><button>Export</button></a>
+        <button @click="exportFile">Export</button>
+        <a ref="download" :class="$style.hiddenLink" :href="blobUrl" :download="(lang || 'translation') + '.json'">download</a>
       </div>
       <label>pid: <input :class="[pid !== pidInput ? $style.invalid : '']" v-model.number="pidInput" type="number" min="1"></label>
       <div>wxid: {{ card.wxid }}</div>
@@ -209,5 +220,12 @@ export default {
   width: 100%;
   height: 100%;
   opacity: 0;
+}
+.hiddenLink {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -999;
 }
 </style>
