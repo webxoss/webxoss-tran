@@ -122,17 +122,22 @@ export default {
       reader.readAsText(file)
     },
     exportFile() {
-      let json = JSON.stringify(this.translation)
-      let blob = new Blob([json], {
-        type: 'application/octet-stream',
-      })
-      URL.revokeObjectURL(this.blobUrl)
-      this.blobUrl = URL.createObjectURL(blob)
-      this.$nextTick().then(() => {
-        if (this.$refs.download) {
-          this.$refs.download.click()
-        }
-      })
+      try {
+        let json = JSON.stringify(this.translation)
+        let blob = new Blob([json], {
+          type: 'application/octet-stream',
+        })
+        URL.revokeObjectURL(this.blobUrl)
+        this.blobUrl = URL.createObjectURL(blob)
+        this.$nextTick().then(() => {
+          if (this.$refs.download) {
+            this.$refs.download.click()
+          }
+        })
+      } catch (error) {
+        alert(error.message)
+        console.error(error)
+      }
     },
   },
   created() {
