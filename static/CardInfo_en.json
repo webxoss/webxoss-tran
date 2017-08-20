@@ -18441,7 +18441,10 @@
     "pid": 2297,
     "wxid": "WX16-023",
     "artsEffectTexts": [
-      "When you use this ARTS, you may remove up to 2 [Virus] on your opponent's field. Choose 1 of the following 3, plus 1 more for each [Virus] removed this way.\n① Add 1 black SIGNI from your trash to your hand.\n② Exclude up to 2 cards in your opponent's trash from the game.\n③ Until end of turn, 1 of your opponent's SIGNI gets −7000 power."
+      "When you use this ARTS, you may remove up to 2 [Virus] on your opponent's field. Choose 1 of the following 3, plus 1 more for each [Virus] removed this way.\n① Add 1 black SIGNI from your trash to your hand.\n② Exclude up to 2 cards in your opponent's trash from the game.\n③ Until end of turn, 1 of your opponent's SIGNI gets −7000 power.",
+      "Add 1 black SIGNI from your trash to your hand.",
+      "Exclude up to 2 cards in your opponent's trash from the game.",
+      "Until end of turn, 1 of your opponent's SIGNI gets −7000 power."
     ],
     "name": "Black Ache"
   },
